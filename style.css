@@ -17,7 +17,7 @@ nav a:hover{ color: goldenrod;
     text-align: center;
     padding: 100px 20px;
     color: white;
-    background-image: url("student1image.jpeg");
+    background-image: url("student1image.avif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,6 +80,7 @@ nav a:hover{ color: goldenrod;
 nav{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -182,6 +183,7 @@ footer{
 .login-btn:hover {
     background: white;
     color: #003366;
+    transition: 0.3s;
 }
 .search-box{
     padding: 8px;
