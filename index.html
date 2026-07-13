@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Portal</title>
+        <link rel="icon" type="image/jpeg" href="lasulogo1.jpeg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo-title">
+            <img src="lasulogo1.jpeg" class="logo" alt="LASU logo">
+            <h2>LASU Diploma Portal</h2>
+            </div>
+            <nav>
+                <a href="#">🏠Home</a>
+                <a href="#">ℹ️About</a>
+                <div class="dropdown">
+                    <a href="#">📚Programmes</a>
+                <div class="dropdown-content">
+                <a href="#">Computer Science</a>
+                <a href="#"> Accounting</a>
+                <a href="#">Business Administration</a>
+                <a href="#">Law</a>
+                <a href="#">Mass Communication</a>
+                </div>
+                </div>
+                <a href="#">🎓Admissions</a>
+                <a href="#">📞Contacts</a>
+                <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-box">
+                <button class="search-btn">🔍</button>
+                </div>   
+            </nav>
+        </header>
+        <section class="hero">
+            
+            <h1>Welcome to LASU Diploma Portal</h1>
+            <p>Begin your journey towards academic excellence.</p>
+            <a href="#" class="login-btn">Student Login</a>
+            <a href="#" class="btn" onclick="welcome()">Apply Now</a>
+        </section>
+        <section class="features">
+            <h2>Student Services</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>🎓Admission</h3>
+                    <p>Apply for Diploma Programmes easily online.</p>
+                </div>
+            <div class="card">
+                <h3>📚Courses</h3>
+                <p>View available Diploma courses and requirements.</p>
+            </div>
+            <div class="card">
+                <h3>💳Payments</h3>
+                <p>Pay your school fees securely through the portal.</p>
+            </div>
+            </div>
+        </section>
+        <section class="application">
+            <h2>Application Form</h2>
+            <form id="applicationForm">
+                <input type="text" id="name" placeholder="Full Name required">
+                <input type="email" id="email" placeholder="Email Name required">
+                <input type="text" id="phone" placeholder="Phone Number required">
+                <select id="programme">
+                    <option>Select Programme</option>
+                    <option>Computer Science</option>
+                    <option>Business Administration</option>
+                    <option>Accounting </option>
+                    <option>Mass Communication</option>
+                    <option>Law</option>
+                    <option>Physical Health Education</option>
+                </select>
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy;2026 LASU Diploma Portal. All Rights Reserved.</p>
+        </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
