@@ -15,6 +15,10 @@ nav a{
     color: rgb(249, 247, 247);
     text-decoration: none;
     margin-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 nav a:hover{ color: goldenrod;
 }
@@ -186,7 +190,7 @@ footer{
     padding: 8px;
     border: none;
     border-radius: 5px;
-    width: 150px;
+    width: 100px;
     margin-left: 20px;
 }
 .search-btn {
@@ -196,6 +200,7 @@ footer{
     border-radius: 5px;
     cursor: pointer;
     margin-left: 20px;
+    width: 40px;
 }
 .search-btn:hover {
     background: #f4f7fa;
